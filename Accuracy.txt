@@ -1,0 +1,19 @@
+training.jsonl(n/a) - 471147 bytes, last modified: 11/05/2026 - 100% done
+Saving training.jsonl to training.jsonl
+✅ Dataset loaded successfully
+Shape: (72, 3)
+input	output	output_str
+0	RN / ASST. HEAD NURSE PRACTICE LEADER\n\nSkill...	{'skills': ['care planning', 'case management'...	healthcare
+1	INFORMATION TECHNOLOGY MANAGER/ANALYST Profess...	{'skills': ['project management', 'program man...	tech
+2	AIRCRAFT SALES Professional Summary I expect t...	{'skills': ['aircraft sales', 'FAA compliance'...	aviation-transport
+3	STAFF ACCOUNTANT Summary Skilled Accountant su...	{'skills': ['financial statement analysis', 'a...	finance
+4	BUSINESS DEVELOPMENT MANAGER Summary An experi...	{'skills': ['sales management', 'business deve...	business-hr
+
+
+100%|██████████| 50/50 [00:05<00:00,  8.98it/s]==============================
+      Final results      
+==============================
+Baseline Accuracy (before): 15.00%
+Fine-tuned Accuracy (after): 26.00%
+Improvement: +11.00%
+==============================

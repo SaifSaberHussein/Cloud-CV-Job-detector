@@ -1,0 +1,58 @@
+https://colab.research.google.com/drive/1orCfJgzY4FPCbFl0hFeNDi4LqXKOleSr#scrollTo=Yej0hF_cvZ-i
+http://34.51.196.53:5000/health
+
+
+
+
+pkill gunicorn
+export BUCKET_NAME="resume-api-storage"
+gunicorn -w 2 -b 0.0.0.0:5000 app:app
+
+pkill gunicorn
+export BUCKET_NAME="resume-api-storage"
+gunicorn --bind 0.0.0.0:5000 \
+         app:app \
+         --timeout 300 \
+         --workers 1 \
+         --preload \
+         --log-syslog \
+         --access-logfile - \
+         --error-logfile - \
+         --daemon
+
+
+
+
+cat > .py << 'EOF'
+
+EOF
+
+
+
+
+resource.type="gce_instance"
+jsonPayload.message:"gunicorn" OR jsonPayload.message:"App" OR severity>=ERROR
+
+
+
+
+gcloud storage ls gs://resume-api-storage/extractions/2026-05-09/
+
+gcloud storage cat gs://resume-api-storage/extractions/2026-05-09/399e22d2-0b84-4cd9-82c5-dc5a8d32f28a.json
+
+
+
+
+curl -X POST http://34.51.196.53:5000/extract \
+     -H "Content-Type: application/json" \
+     -d '{"resume_text": "Experienced software engineer with a background in Python and cloud infrastructure."}'
+
+{"extracted":{"Main Job":"engineering"},"raw_output":"engineering","record_id":"9db9ace1-f644-4189-a35d-9a165d4a1e8f"}
+
+
+
+
+gcloud storage cat  gs://resume-api-storage/extractions/2026-05-11/9db9ace1-f644-4189-a35d-9a165d4a1e8f.json
+{"id": "9db9ace1-f644-4189-a35d-9a165d4a1e8f", "timestamp": "2026-05-11T15:27:41.611977", "resume_input": "Experienced software engineer with a background in Python and cloud infrastructure.", "extracted": {"Main Job": "engineering"}}(base)
+
+

@@ -1,0 +1,62 @@
+# ==========================================
+# TECH / IT
+# ==========================================
+curl -X POST http://34.51.196.53:5000/extract -H "Content-Type: application/json" -d '{"resume_text": "Information Technology Manager and Analyst. Detail-oriented and skilled in identifying technology needs, managing software development lifecycles, and leading IT teams. Extensive experience in program and project management."}'
+
+curl -X POST http://34.51.196.53:5000/extract -H "Content-Type: application/json" -d '{"resume_text": "Senior Software Engineer. Expert in Python, Django, and AWS. Managed migration of legacy databases to cloud infrastructure and optimized backend APIs for high-traffic web applications."}'
+
+# ==========================================
+# HEALTHCARE / MEDICAL
+# ==========================================
+curl -X POST http://34.51.196.53:5000/extract -H "Content-Type: application/json" -d '{"resume_text": "Registered Nurse and Practice Leader. Responsible for patient care, staffing, triage, and oncology treatment. Managed a 40-bed long term care unit and led infection control procedures."}'
+
+curl -X POST http://34.51.196.53:5000/extract -H "Content-Type: application/json" -d '{"resume_text": "Certified Medical Assistant. Experienced in phlebotomy, EKG testing, patient triage, and scheduling. BLS certified with a strong background in outpatient clinic operations."}'
+
+# ==========================================
+# CONSTRUCTION / LABOR
+# ==========================================
+curl -X POST http://34.51.196.53:5000/extract -H "Content-Type: application/json" -d '{"resume_text": "Construction Manager with 17 years of experience supervising multi-million dollar building projects. Skilled in plan reading, Work Breakdown Structures, subcontractor recruitment, and enforcing OSHA safety regulations."}'
+
+curl -X POST http://34.51.196.53:5000/extract -H "Content-Type: application/json" -d '{"resume_text": "Heavy Equipment Operator with 10 years experience. CDL Class A license. Expert in bulldozers, excavators, and site grading for large commercial developments."}'
+
+# ==========================================
+# FINANCE / ACCOUNTING
+# ==========================================
+curl -X POST http://34.51.196.53:5000/extract -H "Content-Type: application/json" -d '{"resume_text": "Financial Consultant and Accountant. Directed month-end close, variance analysis, budgeting, and financial management. Analyzed maturity risk and liquidity trends for corporate debt issuance."}'
+
+curl -X POST http://34.51.196.53:5000/extract -H "Content-Type: application/json" -d '{"resume_text": "Investment Banker specializing in mergers and acquisitions. Built complex financial models, performed DCF valuations, and managed high-net-worth client relations."}'
+
+# ==========================================
+# AVIATION / TRANSPORT
+# ==========================================
+curl -X POST http://34.51.196.53:5000/extract -H "Content-Type: application/json" -d '{"resume_text": "Commercial Pilot and Aviation Management Professional. Well versed with FAA and DOT standards, crew resource management, aircraft appraisal, and aviation safety inspections."}'
+
+curl -X POST http://34.51.196.53:5000/extract -H "Content-Type: application/json" -d '{"resume_text": "Air Traffic Controller. Managed approach and departure control for a high-volume international airport. Expert in radar systems, emergency protocols, and weather pattern analysis."}'
+
+# ==========================================
+# SALES / MARKETING
+# ==========================================
+curl -X POST http://34.51.196.53:5000/extract -H "Content-Type: application/json" -d '{"resume_text": "Digital advertising and media professional with hands-on experience in ad metrics, content management, and CRM. Proficient in Google Analytics, HubSpot, and executing high-ROI social media campaigns."}'
+
+curl -X POST http://34.51.196.53:5000/extract -H "Content-Type: application/json" -d '{"resume_text": "SEO Specialist and Content Strategist. Increased organic traffic by 150% over two years through targeted keyword research, technical SEO audits, and aggressive link-building campaigns."}'
+
+# ==========================================
+# EDUCATION / TEACHING
+# ==========================================
+curl -X POST http://34.51.196.53:5000/extract -H "Content-Type: application/json" -d '{"resume_text": "Teacher and Educator with a Masters of Education. Developed and administered curriculum for grades K-12. Assisted with district professional development, teacher training, and student progress evaluation."}'
+
+curl -X POST http://34.51.196.53:5000/extract -H "Content-Type: application/json" -d '{"resume_text": "University Professor and published researcher in cognitive psychology. Responsible for curriculum design, delivering lectures to 200+ students, and mentoring undergraduate research assistants."}'
+
+# ==========================================
+# HOSPITALITY / FOOD
+# ==========================================
+curl -X POST http://34.51.196.53:5000/extract -H "Content-Type: application/json" -d '{"resume_text": "Kitchen Manager and Chef. Managed a shift of 25 staff, including cooks and bakers. Built strong vendor relationships, executed line checks for food safety, and streamlined kitchen processes to reduce wait times."}'
+
+curl -X POST http://34.51.196.53:5000/extract -H "Content-Type: application/json" -d '{"resume_text": "Hotel Front Desk Supervisor. Excelled in guest relations, conflict resolution, check-in/check-out procedures, and managing reservations using the Opera PMS software."}'
+
+# ==========================================
+# BUSINESS / HR
+# ==========================================
+curl -X POST http://34.51.196.53:5000/extract -H "Content-Type: application/json" -d '{"resume_text": "Human Resource Specialist. Managed the full life cycle of the Recruitment Process and onboarding. Prepared job descriptions, conducted interviews, checked references, and managed employee relations and payroll."}'
+
+curl -X POST http://34.51.196.53:5000/extract -H "Content-Type: application/json" -d '{"resume_text": "Payroll and Benefits Coordinator. Processed multi-state payroll for 500+ employees. Managed 401k compliance, health insurance open enrollments, and resolved employee compensation inquiries."}'
